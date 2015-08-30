@@ -1,5 +1,3 @@
-import java.util.stream.IntStream;
-
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
@@ -20,6 +18,8 @@ import org.neo4j.graphdb.ResourceIterator;
 import org.neo4j.graphdb.Transaction;
 import org.neo4j.graphdb.traversal.Paths;
 import org.neo4j.test.TestGraphDatabaseFactory;
+
+import java.util.stream.IntStream;
 
 public class PathFindingTest {
     private static GraphDatabaseService graphDb;
